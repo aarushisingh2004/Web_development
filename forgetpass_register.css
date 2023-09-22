@@ -1,0 +1,98 @@
+.btn1:hover{
+  display: inline-block;
+  margin-bottom:5 rem;
+  background: #30a426;
+  color: #fff;
+  padding: 0.8rem 3 rem;
+  border: 0.2rem solid var(--orange);
+  cursor: pointer;
+  font-size: 1.3rem;
+  }
+/* Style the login form container */
+.register-form-container {
+    position:absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+  }
+  
+  /* Style the close button */
+  #form-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style the form title */
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style text boxes */
+  .box1 {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+  }
+  
+  /* Style the login button */
+  .btn1 {
+    width: 100%;
+    padding: 10px;
+    background-color:orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Style the remember me checkbox and label */
+  #remember {
+    margin-right: 5px;
+  }
+  
+  /* Style the forget password and register links */
+  p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .my {
+     background-image:url('/images/back_register.webp'); 
+     background-size:cover;
+     object-fit:cover;
+     background-repeat:no-repeat;
+      
+     
+  } 
+  .back{
+    border: 2px solid black;
+    border-radius:10px;
+    color:rgb(35, 141, 162);
+    width: 70px;
+    position: absolute;
+  bottom:25px;
+  left:105%;
+  
+  }
+    
+  
