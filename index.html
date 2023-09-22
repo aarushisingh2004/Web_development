@@ -10,6 +10,7 @@
     rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
 />
+    <link rel="stylesheet" href = "forgetpass_register.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- custom css file link -->
@@ -17,21 +18,24 @@
 </head>
 
 <body>
+    
 
 
     <!-- header section starts -->
     <header>
         <div id="menu-bar" class="fas fa-bars"></div>
         <a href="#" class="logo"><span>य</span>aaत्री</a>
+        <img src="images\logo.jpg" class="logo1" alt="alternatetext">
         <nav class="navbar">
+           
             <a href="#home">Home </a>
             <a href="#book">Book </a>
             <a href="#packages">Packages </a>
             <a href="#services">Services </a>
             <a href="#gallery">Gallery </a>
             <a href="#review">Review </a>
-            <a href="#contact">Contact </a>
-            <a href="#virtual tour">virtual tour </a>
+            <a href="https://contactyatri.netlify.app/">Contact </a>
+            <a href="https://play.unity.com/mg/other/virtual_tour">virtual tour </a>
             <a href="#chatbot">chatbot </a>
             <a href="#linguistic support">linguistic support </a>
         </nav>
@@ -50,7 +54,7 @@
     <!-- login form container -->
     <div class="login-form-container">
         <!-- form closing is still left -->
-        <i class="fas fa-time" id="form-close"></i>
+        <i class="fas fa-times" id="form-close"></i>
         <form action="">
             <!-- TO DO !!!!!!!!!!!!!!!!!!!RESIZE THE TEXT BOX -->
             <h3>login </h3>
@@ -60,17 +64,30 @@
             <input type="checkbox" id="remember">
             <label for="remember"> remember me</label>
             <p>forget password? <a href="#">click here</a></p>
-            <p>don't have an account <a href="#">register now</a></p>
+            <p id= "register-btn"> don't have an account? <a href="forgetpass_register.html">register now </a></p>
 
 
         </form>
     </div>
+
+    <!-- register form container  -->
+ 
+    
+   <!-- registter form over -->
+
+
+
+
+
+
+
+
     <!-- home sectiom starts-->
 
     <section class="home" id="home">
         <div class="content">
-            <h3>adventure is worthwhile</h3>
-            <p> discover new places with us, adventure awaits</p>
+            <h3 class="word1">Explore the Extraordinary</h3>
+            <p class="word"> Your odyssey begins here, where every path leads to adventure.</p>
             <a href="#" class="btn">discover more</a>
         </div>
 
@@ -107,7 +124,30 @@
             <form action="">
                 <div class="inputBox">
                     <h3>where to</h3>
-                    <input type="text" placeholder="place name">
+                    <select name="State" id="inputBox1"> 
+                        <option value="Assam">Assam</option> 
+                        <option value="Delhi">Delhi</option> 
+                        <option value="Karnataka">Karnataka</option> 
+                        <option value="Kerala">Kerala</option> 
+                        <option value="Madhya Pradesh">Madhya Pradesh</option> 
+                        <option value="Uttar Pradesh">Uttar Pradesh</option> 
+                        <option value="West Bengal">West Bengal</option> 
+                       
+                    </select>
+                    
+                </div>
+
+                <div class="inputBox">
+                    <h3>Category</h3>
+                    
+       <select name="Category" id="inputBox1">
+        <option value="Beaches">Beaches</option> 
+        <option value="Heritage">Heritage</option> 
+        <option value="Mountains">Mountains</option> 
+         
+        <option value="Pilgrimage">Pilgrimage</option> 
+        <option value="Wildlife">Wildlife</option> 
+    </select>
                 </div>
 
                 <div class="inputBox">
@@ -123,8 +163,27 @@
                     <h3>leaving</h3>
                     <input type="date" placeholder="arrivals">
                 </div>
-                <input type="submit" class="btn" value="Book Now">
-            </form>
+                
+<!-- making changes here -->
+<a href="recommendations.html" class="btn">Book Now</a>
+
+
+
+
+<!-- making changes here -->
+
+
+
+
+
+
+
+
+
+
+
+
+                </form>
         </div>
     </section>
     <!-- book section ends-->
@@ -402,19 +461,29 @@
             <div class="box">
                 <i class="fas fa-hotel"></i>
                 <h3>affordable hotels</h3>
-                <p>offer budget-conscious travelers comfortable accommodation options without breaking the bank,
+                <p>offer budget-conscious travelers comfortable 
+                    accommodation options
+                     without breaking the bank,
+                     Enjoy a memorable and hassle-free stay with our 
+                     curated collection of quality accommodations
                     
                 </p>
             </div>
             <div class="box">
                 <i class="fas fa-utensils"></i>
                 <h3>Food and Drinks</h3>
-                <p>xyzz</p>
+                <p>Savor culinary delights and sip on exotic beverages as you indulge in a world 
+                    of flavors during your travels. Explore the local 
+                    cuisines and drinks that make every destination a culinary adventure.</p>
             </div>
             <div class="box">
-                <i class="fas fa-bullhorn"></i>
-                <h3>safety guide</h3>
-                <p>xyzz</p>
+                <i class="fas fa-camera"></i>
+                <h3>Image Explorer</h3>
+                <p>Embark on a visual journey like never before with our
+                     cutting-edge technology. Explore monuments and 
+                     uncover the beauty
+                     of flora and fauna through the lens of innovation, 
+                     enriching your travel experience</p>
             </div>
             <div class="box">
                 <i class="fas fa-globe-asia"></i>
@@ -424,7 +493,9 @@
             <div class="box">
                 <i class="fas fa-plane"></i>
                 <h3>Fastest travel</h3>
-                <p>xyzz</p>
+                <p>offers the quickest travel solutions by curating flights and routes with minimal 
+                    layovers and maximum efficiency . Streamlining the booking process 
+                    to find the fastest routes, enhancing the overall travel experience.</p>
             </div>
             <div class="box">
                 <i class="fas fa-hiking"></i>
