@@ -1,0 +1,66 @@
+.recommendation-form-container{
+    
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 700px;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        height: 100%;
+        opacity: 70%;
+
+}
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style text boxes */
+  .box {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    height:70%;
+  }
+   
+  /* Style the login button */
+  .btn{
+    width: 100%;
+    padding: 10px;
+    background-color:orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Style the remember me checkbox and label */
+ 
+  
+  /* Style the forget password and register links */
+  p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .recom{
+    /* background-image:url('/images/back_register.webp');  */
+    background-size:cover;
+    object-fit:cover;
+    background-repeat:no-repeat;
+  }
+     
+  

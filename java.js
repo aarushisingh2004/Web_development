@@ -1,8 +1,18 @@
 let searchBtn = document.querySelector( '#search-btn');
 let searchBar= document.querySelector('.search-bar-container');
+
 let formBtn = document.querySelector( '#login-btn');
 let loginForm= document.querySelector('.login-form-container');
 let formClose= document.querySelector('#form-close');
+
+// //register form 
+// let formBtn1 = document.querySelector( '#register-btn');
+// let registerForm= document.querySelector('.register-form-container');
+// let formClose1= document.querySelector('#form-close');
+
+// //end register form
+
+
 let menu=document.querySelector('#menu-bar');
 let navbar=document.querySelectorAll('.navbar');
 
@@ -14,7 +24,10 @@ window.onscroll = () => {
     //to make login button active on phone
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
+
     loginForm.classList.remove('active');
+    // //for register
+    // registerForm.classList.remove('active');
 }
 // for mobile view
 menu.addEventListener('click', ()=>{
@@ -32,10 +45,29 @@ formBtn.addEventListener('click', ()=>{
     loginForm.classList.add('active');
 });
 
+
+// //switching register form
+// formBtn1.addEventListener('click', ()=>{
+    
+//     registerForm.classList.add('active');
+// });
+
+
+
 formClose.addEventListener('click', ()=>{
     
     loginForm.classList.remove('active');
 });
+
+// //registeration close 
+// formClose1.addEventListener('click', ()=>{
+    
+//     loginForm.classList.remove('active');
+// });
+
+
+
+
  
 videoBtn.forEach(btn =>{
     btn.addEventListener('click', ()=>{

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
- --orange: #ffa500;
+ --orange: #ff770095;
 }
 
 *{
@@ -19,6 +19,8 @@
   background: var(--orange);
   color:#fff;
 }
+
+
 
 html{
     font-size: 62.5%;
@@ -370,6 +372,14 @@ header .search-bar-container label:hover{
             margin: 1.5 rem0;
             background: #222;
             }
+
+            .logo{
+                height: 5px;
+            
+                width:5px;
+                position: absolute;
+                top: 100%;
+            }
         }
             
             @media(max-width : 450px){
@@ -412,16 +422,19 @@ header .search-bar-container label:hover{
                     flex-wrap: wrap;
                     gap: 1.5rem;
                     align-items: center;
+                    
                     }
                     
                     .book .row .image{
                     flex: 1 1 40rem;
                     position: relative;
-                    top:-100px;
+                    top:-200px;
+                    
                     }
                     
                     .book .row .image img{ 
                      width: 100%;
+                     
                     }
                     
                     .book .row form{
@@ -431,12 +444,26 @@ header .search-bar-container label:hover{
                     border-radius: 0.5rem;
                     position: relative;
                     top:-115px;
+                    
                     }
                     
                     .book .row form .inputBox{
                     padding: 1rem 0;
                     margin-bottom: .1rem;
+                    
                     }
+
+                    #inputBox1{
+                        /* padding: 1rem 0;
+                        margin-bottom: .1rem; */
+                        
+                        width:100%;
+                        border:1px solid;
+                        height:40px;
+                        border-color:rgb(222, 219, 219);
+                        }
+                    
+                    
                     
                     .book .row form .inputBox input{
                     width: 100%;
@@ -445,12 +472,14 @@ header .search-bar-container label:hover{
                     font-size: 1.7rem;
                     color: #333;
                     text-transform: none;
+                    
                     }
                     
                     .book .row form .inputBox h3{
                     font-size: 2rem;
                     padding: 1rem 0;
                     color: #666;
+                   
                     }
 
 
@@ -693,4 +722,12 @@ header .search-bar-container label:hover{
                                 width: 100%;
                                 }
                                 
-                            
+                                .logo1{
+                                    height: 40px;
+                                
+                                    width:50px;
+                                    position: absolute;
+                                    top: 0%;
+                                    left: 3.5%;
+                                } 
+                                
