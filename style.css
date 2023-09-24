@@ -612,13 +612,13 @@ header .search-bar-container label:hover{
                             
                             .gallery .box-container .box .content{
                             position: absolute;
-                            top:-100%; left: 0;
+                            top:-105%; left: 0;
                             height: 100%;
                             width: 100%;
                             text-align: center;
                             background: rgb(0,0,0,.7);
-                            padding: 2rem;
-                            padding-top: 5rem;
+                            padding:1rem;
+                            padding-top:1rem;
                             }
                             
                             .gallery .box-container .box:hover .content{
@@ -651,7 +651,9 @@ header .search-bar-container label:hover{
                             text-align:center;
                             box-shadow: 2rem 2rem 2rem black;
                             border-radius: .5rem;
-                            width: 25rem;
+                            width: 50rem;
+                            text-align:center;
+                            left:200%;
                             
                            
 
